@@ -17,7 +17,7 @@ node {
                         baseDir: '/var/jenkins_home/workspace/Pipeline-component_creation',
                         fileIncludePatterns: '*.zip',
                         fileExcludePatterns: '',
-                        pushProperties: 'jenkins.server=Local\njenkins.reviewed=false',
+                        pushProperties: 'jenkins.server=Local\njenkins.reviewed=true',
                         pushDescription: 'Pushed from Jenkins',
                         pushIncremental: false
                     ]
